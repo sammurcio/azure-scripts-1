@@ -9,6 +9,7 @@
 *.sln
 *.targets
 *.deployproj
+*.pssproj
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
