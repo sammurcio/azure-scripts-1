@@ -1,0 +1,782 @@
+{
+  "defaultAppPoolSettings": {
+    "managedRuntimeVersion": "v4.0",
+    "enable32BitAppOnWin64": false,
+    "managedPipelineMode": "Integrated",
+    "queueLength": 1000,
+    "autoStart": true,
+    "proccessModel": {
+      "idleTimeout": "02:00:00",
+      "loadUserProfile": false,
+      "maxProcesses": 2,
+      "shutdownTimeLimit": "00:01:30",
+      "startupTimeLimit": "00:01:30",
+      "pingEnabled": true,
+      "pingInterval": "00:00:30",
+      "pingResponseTime": "00:01:30"
+    },
+    "recycling": {
+      "disallowOverlappingRotation": false,
+      "disallowRotationOnConfigChange": false,
+      "logEventOnRecycle": "Time,Schedule,Memory,IsapiUnhealthy,OnDemand,ConfigChange,PrivateMemory",
+      "periodicRestart": {
+        "privateMemory": 524288,
+        "requests": 0,
+        "time": "3.00:00:00",
+        "memory": 0,
+        "schedule": [
+          "05:20:00"
+        ]
+      }
+    }
+  },
+  "appPools": [
+    {
+      "name": "DefaultAppPool",
+      "managedRuntimeVersion": "v2.0",
+      "processModel": {
+        "idleTimeout": "02:00:00",
+        "maxProcesses": 2,
+        "shutdownTimeLimit": "00:01:30",
+        "startupTimeLimit": "00:01:30",
+        "pingInterval": "00:00:30",
+        "pingResponseTime": "00:01:30"
+      },
+      "recycling": {
+        "periodicRestart": {
+          "privateMemory": 524288,
+          "schedule": [
+            "05:20:00"
+          ]
+        }
+      }
+    },
+    {
+      "name": "AppUtility",
+      "managedRuntimeVersion": "v4.0",
+      "processModel": {
+        "idleTimeout": "02:00:00",
+        "maxProcesses": 2,
+        "shutdownTimeLimit": "00:01:30",
+        "startupTimeLimit": "00:01:30",
+        "pingInterval": "00:00:30",
+        "pingResponseTime": "00:01:30"
+      },
+      "recycling": {
+        "periodicRestart": {
+          "privateMemory": 524288,
+          "schedule": [
+            "05:00:00",
+            "05:10:00"
+          ]
+        }
+      }
+    },
+    {
+      "name": "DataPromotion",
+      "managedRuntimeVersion": "v4.0",
+      "processModel": {
+        "idleTimeout": "02:00:00",
+        "maxProcesses": 1,
+        "shutdownTimeLimit": "00:01:30",
+        "startupTimeLimit": "00:01:30",
+        "pingInterval": "00:00:30",
+        "pingResponseTime": "00:01:30"
+      },
+      "recycling": {
+        "periodicRestart": {
+          "privateMemory": 524288,
+          "schedule": [
+            "05:00:00",
+            "05:10:00"
+          ]
+        }
+      }
+    },
+    {
+      "name": "ProductManager",
+      "managedRuntimeVersion": "v4.0",
+      "processModel": {
+        "idleTimeout": "02:00:00",
+        "maxProcesses": 1,
+        "shutdownTimeLimit": "00:01:30",
+        "startupTimeLimit": "00:01:30",
+        "pingInterval": "00:00:30",
+        "pingResponseTime": "00:01:30"
+      },
+      "recycling": {
+        "periodicRestart": {
+          "privateMemory": 1529120,
+          "schedule": [
+            "05:00:00",
+            "05:20:00"
+          ]
+        }
+      }
+    },
+    {
+      "name": "A2P",
+      "managedRuntimeVersion": "v2.0",
+      "processModel": {
+        "idleTimeout": "02:00:00",
+        "maxProcesses": 2,
+        "shutdownTimeLimit": "00:05:00",
+        "startupTimeLimit": "00:03:00",
+        "pingInterval": "00:00:30",
+        "pingResponseTime": "00:01:30"
+      },
+      "recycling": {
+        "periodicRestart": {
+          "privateMemory": 2048000,
+          "schedule": [
+            "05:20:00"
+          ]
+        }
+      }
+    },
+    {
+      "name": "ServiceWrapper",
+      "managedRuntimeVersion": "v4.0",
+      "processModel": {
+        "idleTimeout": "02:00:00",
+        "maxProcesses": 1,
+        "shutdownTimeLimit": "00:01:30",
+        "startupTimeLimit": "00:01:30",
+        "pingInterval": "00:00:30",
+        "pingResponseTime": "00:01:30"
+      },
+      "recycling": {
+        "periodicRestart": {
+          "privateMemory": 524288,
+          "schedule": [
+            "05:20:00"
+          ]
+        }
+      }
+    },
+    {
+      "name": "DomesticPersistence4",
+      "managedRuntimeVersion": "v4.0",
+      "processModel": {
+        "idleTimeout": "02:00:00",
+        "maxProcesses": 1,
+        "shutdownTimeLimit": "00:01:30",
+        "startupTimeLimit": "00:01:30",
+        "pingInterval": "00:00:30",
+        "pingResponseTime": "00:01:30"
+      },
+      "recycling": {
+        "periodicRestart": {
+          "privateMemory": 1048576,
+          "schedule": [
+            "05:00:00",
+            "05:10:00"
+          ]
+        }
+      }
+    },
+    {
+      "name": "DomesticQuoteGateway",
+      "managedRuntimeVersion": "v4.0",
+      "processModel": {
+        "idleTimeout": "02:00:00",
+        "maxProcesses": 1,
+        "shutdownTimeLimit": "00:01:30",
+        "startupTimeLimit": "00:01:30",
+        "pingInterval": "00:00:30",
+        "pingResponseTime": "00:01:30"
+      },
+      "recycling": {
+        "periodicRestart": {
+          "privateMemory": 2097152,
+          "schedule": [
+            "05:00:00",
+            "05:20:00"
+          ]
+        }
+      }
+    },
+    {
+      "name": "DomesticWrappers",
+      "managedRuntimeVersion": "v4.0",
+      "processModel": {
+        "idleTimeout": "02:00:00",
+        "maxProcesses": 2,
+        "shutdownTimeLimit": "00:01:30",
+        "startupTimeLimit": "00:01:30",
+        "pingInterval": "00:00:30",
+        "pingResponseTime": "00:01:30"
+      },
+      "recycling": {
+        "periodicRestart": {
+          "privateMemory": 1572864,
+          "schedule": [
+            "05:00:00",
+            "05:30:00"
+          ]
+        }
+      }
+    },
+    {
+      "name": "WidgetMockPartnerSite",
+      "managedRuntimeVersion": "v4.0",
+      "processModel": {
+        "idleTimeout": "02:00:00",
+        "maxProcesses": 1,
+        "shutdownTimeLimit": "00:01:30",
+        "startupTimeLimit": "00:01:30",
+        "pingInterval": "00:00:30",
+        "pingResponseTime": "00:01:30"
+      },
+      "recycling": {
+        "periodicRestart": {
+          "privateMemory": 524288,
+          "schedule": [
+            "05:20:00"
+          ]
+        }
+      }
+    },
+    {
+      "name": "CRO Services",
+      "managedRuntimeVersion": "v4.0",
+      "processModel": {
+        "idleTimeout": "02:00:00",
+        "maxProcesses": 2,
+        "shutdownTimeLimit": "00:01:30",
+        "startupTimeLimit": "00:01:30",
+        "pingInterval": "00:00:30",
+        "pingResponseTime": "00:01:30"
+      },
+      "recycling": {
+        "periodicRestart": {
+          "privateMemory": 524288,
+          "schedule": [
+            "05:00:00",
+            "05:20:00"
+          ]
+        }
+      }
+    },
+    {
+      "name": "WebAppMonitor",
+      "managedRuntimeVersion": "v4.0",
+      "processModel": {
+        "idleTimeout": "02:00:00",
+        "maxProcesses": 1,
+        "shutdownTimeLimit": "00:01:30",
+        "startupTimeLimit": "00:01:30",
+        "pingInterval": "00:00:30",
+        "pingResponseTime": "00:01:30"
+      },
+      "recycling": {
+        "periodicRestart": {
+          "privateMemory": 524288,
+          "schedule": [
+            "05:20:00"
+          ]
+        }
+      }
+    },
+    {
+      "name": "UATAppUtility4",
+      "managedRuntimeVersion": "v4.0",
+      "processModel": {
+        "idleTimeout": "02:00:00",
+        "maxProcesses": 1,
+        "shutdownTimeLimit": "00:01:30",
+        "startupTimeLimit": "00:01:30",
+        "pingInterval": "00:00:30",
+        "pingResponseTime": "00:01:30"
+      },
+      "recycling": {
+        "periodicRestart": {
+          "privateMemory": 524288,
+          "schedule": [
+            "05:20:00"
+          ]
+        }
+      }
+    },
+    {
+      "name": "QAAppUtility4",
+      "managedRuntimeVersion": "v4.0",
+      "processModel": {
+        "idleTimeout": "02:00:00",
+        "maxProcesses": 1,
+        "shutdownTimeLimit": "00:01:30",
+        "startupTimeLimit": "00:01:30",
+        "pingInterval": "00:00:30",
+        "pingResponseTime": "00:01:30"
+      },
+      "recycling": {
+        "periodicRestart": {
+          "privateMemory": 524288,
+          "schedule": [
+            "05:20:00"
+          ]
+        }
+      }
+    },
+    {
+      "name": "UATCoreContent",
+      "managedRuntimeVersion": "v4.0",
+      "processModel": {
+        "idleTimeout": "04:00:00",
+        "maxProcesses": 1,
+        "shutdownTimeLimit": "00:01:30",
+        "startupTimeLimit": "00:01:30",
+        "pingInterval": "00:00:30",
+        "pingResponseTime": "00:01:30"
+      },
+      "recycling": {
+        "periodicRestart": {
+          "privateMemory": 1048576,
+          "schedule": [
+            "05:20:00"
+          ]
+        }
+      }
+    },
+    {
+      "name": "UATCoreServices",
+      "managedRuntimeVersion": "v4.0",
+      "processModel": {
+        "idleTimeout": "00:00:00",
+        "maxProcesses": 1,
+        "shutdownTimeLimit": "00:01:30",
+        "startupTimeLimit": "00:01:30",
+        "pingInterval": "00:00:30",
+        "pingResponseTime": "00:01:30"
+      },
+      "recycling": {
+        "periodicRestart": {
+          "privateMemory": 1572864,
+          "schedule": [
+            "05:20:00"
+          ]
+        }
+      }
+    },
+    {
+      "name": "UATCorePersistence",
+      "managedRuntimeVersion": "v4.0",
+      "processModel": {
+        "idleTimeout": "04:00:00",
+        "maxProcesses": 1,
+        "shutdownTimeLimit": "00:05:00",
+        "startupTimeLimit": "00:01:30",
+        "pingInterval": "00:00:30",
+        "pingResponseTime": "00:01:30"
+      },
+      "recycling": {
+        "periodicRestart": {
+          "privateMemory": 1048576,
+          "schedule": [
+            "05:20:00"
+          ]
+        }
+      }
+    },
+    {
+      "name": "UATCoreQuoteGateway",
+      "managedRuntimeVersion": "v4.0",
+      "processModel": {
+        "idleTimeout": "04:00:00",
+        "maxProcesses": 1,
+        "shutdownTimeLimit": "00:01:30",
+        "startupTimeLimit": "00:01:30",
+        "pingInterval": "00:00:30",
+        "pingResponseTime": "00:01:30"
+      },
+      "recycling": {
+        "periodicRestart": {
+          "privateMemory": 1572864,
+          "schedule": [
+            "05:20:00"
+          ]
+        }
+      }
+    },
+    {
+      "name": "UATCoreWidget",
+      "managedRuntimeVersion": "v4.0",
+      "processModel": {
+        "idleTimeout": "04:00:00",
+        "maxProcesses": 1,
+        "shutdownTimeLimit": "00:01:30",
+        "startupTimeLimit": "00:01:30",
+        "pingInterval": "00:00:30",
+        "pingResponseTime": "00:01:30"
+      },
+      "recycling": {
+        "periodicRestart": {
+          "privateMemory": 1048576,
+          "schedule": [
+            "05:20:00"
+          ]
+        }
+      }
+    },
+    {
+      "name": "QACoreContent",
+      "managedRuntimeVersion": "v4.0",
+      "processModel": {
+        "idleTimeout": "04:00:00",
+        "maxProcesses": 1,
+        "shutdownTimeLimit": "00:01:30",
+        "startupTimeLimit": "00:01:30",
+        "pingInterval": "00:00:30",
+        "pingResponseTime": "00:01:30"
+      },
+      "recycling": {
+        "periodicRestart": {
+          "privateMemory": 1048576,
+          "schedule": [
+            "05:20:00"
+          ]
+        }
+      }
+    },
+    {
+      "name": "QACoreServices",
+      "managedRuntimeVersion": "v4.0",
+      "processModel": {
+        "idleTimeout": "00:00:00",
+        "maxProcesses": 1,
+        "shutdownTimeLimit": "00:01:30",
+        "startupTimeLimit": "00:01:30",
+        "pingInterval": "00:00:30",
+        "pingResponseTime": "00:01:30"
+      },
+      "recycling": {
+        "periodicRestart": {
+          "privateMemory": 1572864,
+          "schedule": [
+            "05:20:00"
+          ]
+        }
+      }
+    },
+    {
+      "name": "QACorePersistence",
+      "managedRuntimeVersion": "v4.0",
+      "processModel": {
+        "idleTimeout": "04:00:00",
+        "maxProcesses": 1,
+        "shutdownTimeLimit": "00:05:00",
+        "startupTimeLimit": "00:01:30",
+        "pingInterval": "00:00:30",
+        "pingResponseTime": "00:01:30"
+      },
+      "recycling": {
+        "periodicRestart": {
+          "privateMemory": 1048576,
+          "schedule": [
+            "05:20:00"
+          ]
+        }
+      }
+    },
+    {
+      "name": "QACoreQuoteGateway",
+      "managedRuntimeVersion": "v4.0",
+      "processModel": {
+        "idleTimeout": "04:00:00",
+        "maxProcesses": 1,
+        "shutdownTimeLimit": "00:01:30",
+        "startupTimeLimit": "00:01:30",
+        "pingInterval": "00:00:30",
+        "pingResponseTime": "00:01:30"
+      },
+      "recycling": {
+        "periodicRestart": {
+          "privateMemory": 1572864,
+          "schedule": [
+            "05:20:00"
+          ]
+        }
+      }
+    },
+    {
+      "name": "QACoreWidget",
+      "managedRuntimeVersion": "v4.0",
+      "processModel": {
+        "idleTimeout": "04:00:00",
+        "maxProcesses": 1,
+        "shutdownTimeLimit": "00:01:30",
+        "startupTimeLimit": "00:01:30",
+        "pingInterval": "00:00:30",
+        "pingResponseTime": "00:01:30"
+      },
+      "recycling": {
+        "periodicRestart": {
+          "privateMemory": 1048576,
+          "schedule": [
+            "05:20:00"
+          ]
+        }
+      }
+    },
+    {
+      "name": "QADomesticPartner",
+      "managedRuntimeVersion": "v4.0",
+      "processModel": {
+        "idleTimeout": "00:00:00",
+        "maxProcesses": 1,
+        "shutdownTimeLimit": "00:01:30",
+        "startupTimeLimit": "00:01:30",
+        "pingInterval": "00:00:30",
+        "pingResponseTime": "00:01:30"
+      },
+      "recycling": {
+        "periodicRestart": {
+          "privateMemory": 1048576,
+          "schedule": [
+            "05:20:00"
+          ]
+        }
+      }
+    },
+    {
+      "name": "QADomesticPersistence4",
+      "managedRuntimeVersion": "v4.0",
+      "processModel": {
+        "idleTimeout": "02:00:00",
+        "maxProcesses": 1,
+        "shutdownTimeLimit": "00:05:00",
+        "startupTimeLimit": "00:01:30",
+        "pingInterval": "00:00:30",
+        "pingResponseTime": "00:01:30"
+      },
+      "recycling": {
+        "periodicRestart": {
+          "privateMemory": 1048576,
+          "schedule": [
+            "05:20:00"
+          ]
+        }
+      }
+    },
+    {
+      "name": "QADomesticQuoteGateway",
+      "managedRuntimeVersion": "v4.0",
+      "processModel": {
+        "idleTimeout": "02:00:00",
+        "maxProcesses": 1,
+        "shutdownTimeLimit": "00:01:30",
+        "startupTimeLimit": "00:01:30",
+        "pingInterval": "00:00:30",
+        "pingResponseTime": "00:01:30"
+      },
+      "recycling": {
+        "periodicRestart": {
+          "privateMemory": 2097152,
+          "schedule": [
+            "05:20:00"
+          ]
+        }
+      }
+    },
+    {
+      "name": "QADomesticWrappers",
+      "managedRuntimeVersion": "v4.0",
+      "processModel": {
+        "idleTimeout": "02:00:00",
+        "maxProcesses": 2,
+        "shutdownTimeLimit": "00:01:30",
+        "startupTimeLimit": "00:01:30",
+        "pingInterval": "00:00:30",
+        "pingResponseTime": "00:01:30"
+      },
+      "recycling": {
+        "periodicRestart": {
+          "privateMemory": 1572864,
+          "schedule": [
+            "05:20:00"
+          ]
+        }
+      }
+    },
+    {
+      "name": "QAGlobal TI20 Price Verification",
+      "managedRuntimeVersion": "v4.0",
+      "processModel": {
+        "idleTimeout": "02:00:00",
+        "maxProcesses": 1,
+        "shutdownTimeLimit": "00:01:30",
+        "startupTimeLimit": "00:01:30",
+        "pingInterval": "00:00:30",
+        "pingResponseTime": "00:01:30"
+      },
+      "recycling": {
+        "periodicRestart": {
+          "privateMemory": 524288,
+          "schedule": [
+            "05:20:00"
+          ]
+        }
+      }
+    },
+    {
+      "name": "QAGlobalPartner",
+      "managedRuntimeVersion": "v4.0",
+      "processModel": {
+        "idleTimeout": "00:00:00",
+        "maxProcesses": 1,
+        "shutdownTimeLimit": "00:01:30",
+        "startupTimeLimit": "00:01:30",
+        "pingInterval": "00:00:30",
+        "pingResponseTime": "00:01:30"
+      },
+      "recycling": {
+        "periodicRestart": {
+          "privateMemory": 1048576,
+          "schedule": [
+            "05:20:00"
+          ]
+        }
+      }
+    },
+    {
+      "name": "QAGlobalPersistence4",
+      "managedRuntimeVersion": "v4.0",
+      "processModel": {
+        "idleTimeout": "02:00:00",
+        "maxProcesses": 1,
+        "shutdownTimeLimit": "00:05:00",
+        "startupTimeLimit": "00:01:30",
+        "pingInterval": "00:00:30",
+        "pingResponseTime": "00:01:30"
+      },
+      "recycling": {
+        "periodicRestart": {
+          "privateMemory": 1048576,
+          "schedule": [
+            "05:20:00"
+          ]
+        }
+      }
+    },
+    {
+      "name": "QAGlobalQuoteGateway",
+      "managedRuntimeVersion": "v4.0",
+      "processModel": {
+        "idleTimeout": "02:00:00",
+        "maxProcesses": 1,
+        "shutdownTimeLimit": "00:01:30",
+        "startupTimeLimit": "00:01:30",
+        "pingInterval": "00:00:30",
+        "pingResponseTime": "00:01:30"
+      },
+      "recycling": {
+        "periodicRestart": {
+          "privateMemory": 2097152,
+          "schedule": [
+            "05:20:00"
+          ]
+        }
+      }
+    },
+    {
+      "name": "QAGlobalWrappers",
+      "managedRuntimeVersion": "v4.0",
+      "processModel": {
+        "idleTimeout": "02:00:00",
+        "maxProcesses": 2,
+        "shutdownTimeLimit": "00:01:30",
+        "startupTimeLimit": "00:01:30",
+        "pingInterval": "00:00:30",
+        "pingResponseTime": "00:01:30"
+      },
+      "recycling": {
+        "periodicRestart": {
+          "privateMemory": 1572864,
+          "schedule": [
+            "05:20:00"
+          ]
+        }
+      }
+    },
+    {
+      "name": "QACoreQuoteGatewayWebAPI",
+      "managedRuntimeVersion": "v4.0",
+      "processModel": {
+        "idleTimeout": "02:00:00",
+        "maxProcesses": 1,
+        "shutdownTimeLimit": "00:01:30",
+        "startupTimeLimit": "00:01:30",
+        "pingInterval": "00:00:30",
+        "pingResponseTime": "00:01:30"
+      },
+      "recycling": {
+        "periodicRestart": {
+          "privateMemory": 1572864,
+          "schedule": [
+            "05:20:00"
+          ]
+        }
+      }
+    },
+    {
+      "name": "QACoreReservation",
+      "managedRuntimeVersion": "v4.0",
+      "processModel": {
+        "idleTimeout": "02:00:00",
+        "maxProcesses": 1,
+        "shutdownTimeLimit": "00:01:30",
+        "startupTimeLimit": "00:01:30",
+        "pingInterval": "00:00:30",
+        "pingResponseTime": "00:01:30"
+      },
+      "recycling": {
+        "periodicRestart": {
+          "privateMemory": 1048576,
+          "schedule": [
+            "05:20:00"
+          ]
+        }
+      }
+    },
+    {
+      "name": "QADomesticQuoteGatewayWebAPI",
+      "managedRuntimeVersion": "v4.0",
+      "processModel": {
+        "idleTimeout": "02:00:00",
+        "maxProcesses": 1,
+        "shutdownTimeLimit": "00:01:30",
+        "startupTimeLimit": "00:01:30",
+        "pingInterval": "00:00:30",
+        "pingResponseTime": "00:01:30"
+      },
+      "recycling": {
+        "periodicRestart": {
+          "privateMemory": 2097152,
+          "schedule": [
+            "05:20:00"
+          ]
+        }
+      }
+    },
+    {
+      "name": "QAGlobalQuoteGatewayWebAPI",
+      "managedRuntimeVersion": "v4.0",
+      "processModel": {
+        "idleTimeout": "02:00:00",
+        "maxProcesses": 1,
+        "shutdownTimeLimit": "00:01:30",
+        "startupTimeLimit": "00:01:30",
+        "pingInterval": "00:00:30",
+        "pingResponseTime": "00:01:30"
+      },
+      "recycling": {
+        "periodicRestart": {
+          "privateMemory": 2097152,
+          "schedule": [
+            "05:20:00"
+          ]
+        }
+      }
+    }
+  ]
+}

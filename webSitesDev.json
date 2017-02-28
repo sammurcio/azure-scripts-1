@@ -1,0 +1,1909 @@
+{
+  "sites": [
+    {
+      "name": "Default Web Site",
+      "id": "1",
+      "serverAutoStart": "true",
+      "physicalPath": "C:\\inetpub\\wwwroot",
+      "bindings": [
+      ],
+      "virtualDirectories": [
+        {
+          "path": "/WebApplications",
+          "physicalPath": "C:\\FusionServices\\App\\WebApplications"
+        },
+        {
+          "path": "/Utilities",
+          "physicalPath": "C:\\FusionServices\\App\\Utilities"
+        },
+        {
+          "path": "/RepliWebTest",
+          "physicalPath": "C:\\FusionServices\\App\\RepliWebTest"
+        },
+        {
+          "path": "/PDS",
+          "physicalPath": "C:\\FusionServices\\App\\PDS"
+        },
+        {
+          "path": "/CRO",
+          "physicalPath": "C:\\FusionServices\\App\\CRO"
+        },
+        {
+          "path": "/UAT",
+          "physicalPath": "C:\\FusionServices\\App\\UAT"
+        },
+        {
+          "path": "/QA",
+          "physicalPath": "C:\\FusionServices\\App\\QA"
+        }
+      ],
+      "applications": [
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\WebApplications\\Domestic\\Hotwire"
+          },
+          "path": "/WebApplications/Domestic/Hotwire",
+          "applicationPool": "DefaultAppPool"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\PDS\\Global\\ProductManager\\B2C\\WithoutPromotions"
+          },
+          "path": "/PDS/Global/ProductManager/B2C/WithoutPromotions",
+          "applicationPool": "ProductManager"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\PDS\\Global\\ProductManager\\B2C\\WithPromotions"
+          },
+          "path": "/PDS/Global/ProductManager/B2C/WithPromotions",
+          "applicationPool": "ProductManager"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\Utilities\\Domestic\\TI20ServiceWrapper\\Airfare"
+          },
+          "path": "/Utilities/Domestic/TI20ServiceWrapper/Airfare",
+          "applicationPool": "ServiceWrapper"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\Utilities\\Domestic\\TI20ServiceWrapper\\Events"
+          },
+          "path": "/Utilities/Domestic/TI20ServiceWrapper/Events",
+          "applicationPool": "ServiceWrapper"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\Utilities\\Global\\TI20ServiceWrapper\\Event"
+          },
+          "path": "/Utilities/Global/TI20ServiceWrapper/Event",
+          "applicationPool": "ServiceWrapper"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\Utilities\\Global\\TI20ServiceWrapper\\Airfare"
+          },
+          "path": "/Utilities/Global/TI20ServiceWrapper/Airfare",
+          "applicationPool": "ServiceWrapper"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\Utilities\\Domestic\\TI20ServiceWrapper\\Rail"
+          },
+          "path": "/Utilities/Domestic/TI20ServiceWrapper/Rail",
+          "applicationPool": "ServiceWrapper"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\CRO\\CroWebService"
+          },
+          "path": "/CRO/CroWebService",
+          "applicationPool": "CRO Services"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\Utilities\\Domestic\\AGAWrapperTester\\Airfare"
+          },
+          "path": "/Utilities/Domestic/AGAWrapperTester/Airfare",
+          "applicationPool": "ServiceWrapper"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\Utilities\\Domestic\\AGAWrapperTester\\Events"
+          },
+          "path": "/Utilities/Domestic/AGAWrapperTester/Events",
+          "applicationPool": "ServiceWrapper"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\Utilities\\Domestic\\AGAWrapperTester\\Rail"
+          },
+          "path": "/Utilities/Domestic/AGAWrapperTester/Rail",
+          "applicationPool": "ServiceWrapper"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\Utilities\\Global\\AGAWrapperTester\\Airfare"
+          },
+          "path": "/Utilities/Global/AGAWrapperTester/Airfare",
+          "applicationPool": "ServiceWrapper"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\Utilities\\Global\\AGAWrapperTester\\Events"
+          },
+          "path": "/Utilities/Global/AGAWrapperTester/Events",
+          "applicationPool": "ServiceWrapper"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\Utilities\\Domestic\\EmailPrototype\\Persistence"
+          },
+          "path": "/Utilities/Domestic/EmailPrototype/Persistence",
+          "applicationPool": "DomesticPersistence4"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\Utilities\\Domestic\\EmailPrototype\\Quotegateway"
+          },
+          "path": "/Utilities/Domestic/EmailPrototype/Quotegateway",
+          "applicationPool": "DomesticQuoteGateway"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\Utilities\\Domestic\\AirWrapper"
+          },
+          "path": "/Utilities/Domestic/AirWrapper",
+          "applicationPool": "DomesticWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\CRO\\Domestic\\CroTestPartner"
+          },
+          "path": "/CRO/Domestic/CroTestPartner",
+          "applicationPool": "DefaultAppPool"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\WebApplications\\Helpers.WebClientLib"
+          },
+          "path": "/WebApplications/WebClientLib",
+          "applicationPool": "DefaultAppPool"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\UAT\\PreStaging\\HealthCheck2"
+          },
+          "path": "/UAT/PreStaging/HealthCheck2",
+          "applicationPool": "UATAppUtility4"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\UAT\\Prod\\HealthCheck2"
+          },
+          "path": "/UAT/Prod/HealthCheck2",
+          "applicationPool": "UATAppUtility4"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\UAT\\Staging\\HealthCheck2"
+          },
+          "path": "/UAT/Staging/HealthCheck2",
+          "applicationPool": "UATAppUtility4"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\UAT\\PreStaging\\CORE\\Content"
+          },
+          "path": "/UAT/PreStaging/CORE/Content",
+          "applicationPool": "UATCoreContent"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\UAT\\PreStaging\\CORE\\Partner"
+          },
+          "path": "/UAT/PreStaging/CORE/Partner",
+          "applicationPool": "UATCoreServices"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\UAT\\PreStaging\\CORE\\Persistence"
+          },
+          "path": "/UAT/PreStaging/CORE/Persistence",
+          "applicationPool": "UATCorePersistence"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\UAT\\PreStaging\\CORE\\Product"
+          },
+          "path": "/UAT/PreStaging/CORE/Product",
+          "applicationPool": "UATCoreServices"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\UAT\\PreStaging\\CORE\\QuoteGateway"
+          },
+          "path": "/UAT/PreStaging/CORE/QuoteGateway",
+          "applicationPool": "UATCoreQuoteGateway"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\UAT\\PreStaging\\CORE\\Recommendation"
+          },
+          "path": "/UAT/PreStaging/CORE/Recommendation",
+          "applicationPool": "UATCoreServices"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\UAT\\PreStaging\\CORE\\Widget"
+          },
+          "path": "/UAT/PreStaging/CORE/Widget",
+          "applicationPool": "UATCoreWidget"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\UAT\\Prod\\CORE\\Content"
+          },
+          "path": "/UAT/Prod/CORE/Content",
+          "applicationPool": "UATCoreContent"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\UAT\\Prod\\CORE\\Partner"
+          },
+          "path": "/UAT/Prod/CORE/Partner",
+          "applicationPool": "UATCoreServices"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\UAT\\Prod\\CORE\\Persistence"
+          },
+          "path": "/UAT/Prod/CORE/Persistence",
+          "applicationPool": "UATCorePersistence"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\UAT\\Prod\\CORE\\QuoteGateway"
+          },
+          "path": "/UAT/Prod/CORE/QuoteGateway",
+          "applicationPool": "UATCoreQuoteGateway"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\UAT\\Prod\\CORE\\Recommendation"
+          },
+          "path": "/UAT/Prod/CORE/Recommendation",
+          "applicationPool": "UATCoreServices"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\UAT\\Prod\\CORE\\Widget"
+          },
+          "path": "/UAT/Prod/CORE/Widget",
+          "applicationPool": "UATCoreWidget"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\UAT\\Prod\\CORE\\Product"
+          },
+          "path": "/UAT/Prod/CORE/Product",
+          "applicationPool": "UATCoreServices"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\UAT\\Staging\\CORE\\Content"
+          },
+          "path": "/UAT/Staging/CORE/Content",
+          "applicationPool": "UATCoreContent"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\UAT\\Staging\\CORE\\Partner"
+          },
+          "path": "/UAT/Staging/CORE/Partner",
+          "applicationPool": "UATCoreServices"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\UAT\\Staging\\CORE\\Persistence"
+          },
+          "path": "/UAT/Staging/CORE/Persistence",
+          "applicationPool": "UATCorePersistence"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\UAT\\Staging\\CORE\\QuoteGateway"
+          },
+          "path": "/UAT/Staging/CORE/QuoteGateway",
+          "applicationPool": "UATCoreQuoteGateway"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\UAT\\Staging\\CORE\\Product"
+          },
+          "path": "/UAT/Staging/CORE/Product",
+          "applicationPool": "UATCoreServices"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\UAT\\Staging\\CORE\\Recommendation"
+          },
+          "path": "/UAT/Staging/CORE/Recommendation",
+          "applicationPool": "UATCoreServices"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\UAT\\Staging\\CORE\\Widget"
+          },
+          "path": "/UAT/Staging/CORE/Widget",
+          "applicationPool": "UATCoreWidget"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prod\\CORE\\Content"
+          },
+          "path": "/QA/Prod/CORE/Content",
+          "applicationPool": "QACoreContent"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prod\\CORE\\Partner"
+          },
+          "path": "/QA/Prod/CORE/Partner",
+          "applicationPool": "QACoreServices"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prod\\CORE\\Persistence"
+          },
+          "path": "/QA/Prod/CORE/Persistence",
+          "applicationPool": "QACorePersistence"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prod\\CORE\\Product"
+          },
+          "path": "/QA/Prod/CORE/Product",
+          "applicationPool": "QACoreServices"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prod\\CORE\\QuoteGateway"
+          },
+          "path": "/QA/Prod/CORE/QuoteGateway",
+          "applicationPool": "QACoreQuoteGateway"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prod\\CORE\\Recommendation"
+          },
+          "path": "/QA/Prod/CORE/Recommendation",
+          "applicationPool": "QACoreServices"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prod\\CORE\\Widget"
+          },
+          "path": "/QA/Prod/CORE/Widget",
+          "applicationPool": "QACoreWidget"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Staging\\CORE\\Content"
+          },
+          "path": "/QA/Staging/CORE/Content",
+          "applicationPool": "QACoreContent"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Staging\\CORE\\Partner"
+          },
+          "path": "/QA/Staging/CORE/Partner",
+          "applicationPool": "QACoreServices"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Staging\\CORE\\Persistence"
+          },
+          "path": "/QA/Staging/CORE/Persistence",
+          "applicationPool": "QACorePersistence"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Staging\\CORE\\Product"
+          },
+          "path": "/QA/Staging/CORE/Product",
+          "applicationPool": "QACoreServices"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Staging\\CORE\\QuoteGateway"
+          },
+          "path": "/QA/Staging/CORE/QuoteGateway",
+          "applicationPool": "QACoreQuoteGateway"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Staging\\CORE\\Recommendation"
+          },
+          "path": "/QA/Staging/CORE/Recommendation",
+          "applicationPool": "QACoreServices"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Staging\\CORE\\Widget"
+          },
+          "path": "/QA/Staging/CORE/Widget",
+          "applicationPool": "QACoreWidget"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\CORE\\Content"
+          },
+          "path": "/QA/Prestaging/CORE/Content",
+          "applicationPool": "QACoreContent"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\CORE\\Partner"
+          },
+          "path": "/QA/Prestaging/CORE/Partner",
+          "applicationPool": "QACoreServices"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\CORE\\Persistence"
+          },
+          "path": "/QA/Prestaging/CORE/Persistence",
+          "applicationPool": "QACorePersistence"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\CORE\\Product"
+          },
+          "path": "/QA/Prestaging/CORE/Product",
+          "applicationPool": "QACoreServices"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\CORE\\QuoteGateway"
+          },
+          "path": "/QA/Prestaging/CORE/QuoteGateway",
+          "applicationPool": "QACoreQuoteGateway"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\CORE\\Recommendation"
+          },
+          "path": "/QA/Prestaging/CORE/Recommendation",
+          "applicationPool": "QACoreServices"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\CORE\\Widget"
+          },
+          "path": "/QA/Prestaging/CORE/Widget",
+          "applicationPool": "QACoreWidget"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Staging\\Domestic\\AR20Services\\Events"
+          },
+          "path": "/QA/Staging/Domestic/AR20Services/Events",
+          "applicationPool": "QADomesticWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Staging\\Domestic\\AR20Services\\Lodging"
+          },
+          "path": "/QA/Staging/Domestic/AR20Services/Lodging",
+          "applicationPool": "QADomesticWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Staging\\Domestic\\Partner"
+          },
+          "path": "/QA/Staging/Domestic/Partner",
+          "applicationPool": "QADomesticPartner"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Staging\\Domestic\\QuoteGateway"
+          },
+          "path": "/QA/Staging/Domestic/QuoteGateway",
+          "applicationPool": "QADomesticQuoteGateway",
+          "enabledProtocols": "http"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Staging\\Domestic\\TI20Services\\InsuranceOffers"
+          },
+          "path": "/QA/Staging/Domestic/TI20Services/InsuranceOffers",
+          "applicationPool": "QADomesticWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Staging\\Domestic\\TI20Services\\ProductPrice"
+          },
+          "path": "/QA/Staging/Domestic/TI20Services/ProductPrice",
+          "applicationPool": "QADomesticWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Staging\\Domestic\\TI20Services\\PurchaseNotification"
+          },
+          "path": "/QA/Staging/Domestic/TI20Services/PurchaseNotification",
+          "applicationPool": "QADomesticWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Staging\\Domestic\\TI20Services\\RailOffers"
+          },
+          "path": "/QA/Staging/Domestic/TI20Services/RailOffers",
+          "applicationPool": "QADomesticWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Staging\\Global\\GlobalTI20Services\\B2BProductPriceVerification"
+          },
+          "path": "/QA/Staging/Global/GlobalTI20Services/B2BProductPriceVerification",
+          "applicationPool": "QAGlobal TI20 Price Verification"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Staging\\Global\\GlobalTI20Services\\InsuranceOffers"
+          },
+          "path": "/QA/Staging/Global/GlobalTI20Services/InsuranceOffers",
+          "applicationPool": "QAGlobalWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Staging\\Global\\GlobalTI20Services\\ProductPriceVerification"
+          },
+          "path": "/QA/Staging/Global/GlobalTI20Services/ProductPriceVerification",
+          "applicationPool": "QAGlobalWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Staging\\Global\\Partner"
+          },
+          "path": "/QA/Staging/Global/Partner",
+          "applicationPool": "QAGlobalPartner"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Staging\\Global\\QuoteGateway"
+          },
+          "path": "/QA/Staging/Global/QuoteGateway",
+          "applicationPool": "QAGlobalQuoteGateway"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prod\\Domestic\\AR20Services\\Events"
+          },
+          "path": "/QA/Prod/Domestic/AR20Services/Events",
+          "applicationPool": "QADomesticWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prod\\Domestic\\AR20Services\\Lodging"
+          },
+          "path": "/QA/Prod/Domestic/AR20Services/Lodging",
+          "applicationPool": "QADomesticWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prod\\Domestic\\QuoteGateway"
+          },
+          "path": "/QA/Prod/Domestic/QuoteGateway",
+          "applicationPool": "QADomesticQuoteGateway"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prod\\Domestic\\TI20Services\\InsuranceOffers"
+          },
+          "path": "/QA/Prod/Domestic/TI20Services/InsuranceOffers",
+          "applicationPool": "QADomesticWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prod\\Domestic\\TI20Services\\ProductPrice"
+          },
+          "path": "/QA/Prod/Domestic/TI20Services/ProductPrice",
+          "applicationPool": "QADomesticWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prod\\Domestic\\TI20Services\\PurchaseNotification"
+          },
+          "path": "/QA/Prod/Domestic/TI20Services/PurchaseNotification",
+          "applicationPool": "QADomesticWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prod\\Domestic\\TI20Services\\RailOffers"
+          },
+          "path": "/QA/Prod/Domestic/TI20Services/RailOffers",
+          "applicationPool": "QADomesticWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prod\\Global\\GlobalTI20Services\\B2BProductPriceVerification"
+          },
+          "path": "/QA/Prod/Global/GlobalTI20Services/B2BProductPriceVerification",
+          "applicationPool": "QAGlobal TI20 Price Verification"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prod\\Global\\GlobalTI20Services\\InsuranceOffers"
+          },
+          "path": "/QA/Prod/Global/GlobalTI20Services/InsuranceOffers",
+          "applicationPool": "QAGlobalWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prod\\Global\\GlobalTI20Services\\ProductPriceVerification"
+          },
+          "path": "/QA/Prod/Global/GlobalTI20Services/ProductPriceVerification",
+          "applicationPool": "QAGlobalWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prod\\Global\\QuoteGateway"
+          },
+          "path": "/QA/Prod/Global/QuoteGateway",
+          "applicationPool": "QAGlobalQuoteGateway"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\Domestic\\AR20Services\\Events"
+          },
+          "path": "/QA/Prestaging/Domestic/AR20Services/Events",
+          "applicationPool": "QADomesticWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\Domestic\\AR20Services\\Lodging"
+          },
+          "path": "/QA/Prestaging/Domestic/AR20Services/Lodging",
+          "applicationPool": "QADomesticWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\Domestic\\Partner"
+          },
+          "path": "/QA/Prestaging/Domestic/Partner",
+          "applicationPool": "QADomesticPartner"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\Domestic\\QuoteGateway"
+          },
+          "path": "/QA/Prestaging/Domestic/QuoteGateway",
+          "applicationPool": "QADomesticQuoteGateway"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\Domestic\\TI20Services\\InsuranceOffers"
+          },
+          "path": "/QA/Prestaging/Domestic/TI20Services/InsuranceOffers",
+          "applicationPool": "QADomesticWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\Domestic\\TI20Services\\ProductPrice"
+          },
+          "path": "/QA/Prestaging/Domestic/TI20Services/ProductPrice",
+          "applicationPool": "QADomesticWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\Domestic\\TI20Services\\PurchaseNotification"
+          },
+          "path": "/QA/Prestaging/Domestic/TI20Services/PurchaseNotification",
+          "applicationPool": "QADomesticWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\Domestic\\TI20Services\\RailOffers"
+          },
+          "path": "/QA/Prestaging/Domestic/TI20Services/RailOffers",
+          "applicationPool": "QADomesticWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\Global\\GlobalTI20Services\\B2BProductPriceVerification"
+          },
+          "path": "/QA/Prestaging/Global/GlobalTI20Services/B2BProductPriceVerification",
+          "applicationPool": "QAGlobal TI20 Price Verification"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\Global\\GlobalTI20Services\\InsuranceOffers"
+          },
+          "path": "/QA/Prestaging/Global/GlobalTI20Services/InsuranceOffers",
+          "applicationPool": "QAGlobalWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\Global\\GlobalTI20Services\\ProductPriceVerification"
+          },
+          "path": "/QA/Prestaging/Global/GlobalTI20Services/ProductPriceVerification",
+          "applicationPool": "QAGlobalWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\Global\\Partner"
+          },
+          "path": "/QA/Prestaging/Global/Partner",
+          "applicationPool": "QAGlobalPartner"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\Global\\QuoteGateway"
+          },
+          "path": "/QA/Prestaging/Global/QuoteGateway",
+          "applicationPool": "QAGlobalQuoteGateway"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\HealthCheck2"
+          },
+          "path": "/QA/Prestaging/HealthCheck2",
+          "applicationPool": "QAAppUtility4"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Staging\\HealthCheck2"
+          },
+          "path": "/QA/Staging/HealthCheck2",
+          "applicationPool": "QAAppUtility4"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prod\\HealthCheck2"
+          },
+          "path": "/QA/Prod/HealthCheck2",
+          "applicationPool": "QAAppUtility4"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\Common\\AppMonitor"
+          },
+          "path": "/QA/Prestaging/Common/AppMonitor",
+          "applicationPool": "WebAppMonitor"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Staging\\Common\\AppMonitor"
+          },
+          "path": "/QA/Staging/Common/AppMonitor",
+          "applicationPool": "WebAppMonitor"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prod\\Common\\AppMonitor"
+          },
+          "path": "/QA/Prod/Common/AppMonitor",
+          "applicationPool": "WebAppMonitor"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prod\\Global\\AR20Services\\Events"
+          },
+          "path": "/QA/Prod/Global/AR20Services/Events",
+          "applicationPool": "QAGlobalWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\CORE\\WidgetMockPartnerSite"
+          },
+          "path": "/QA/Prestaging/CORE/WidgetMockPartnerSite",
+          "applicationPool": "WidgetMockPartnerSite"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prod\\Domestic\\Partner"
+          },
+          "path": "/QA/Prod/Domestic/Partner",
+          "applicationPool": "QADomesticPartner"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prod\\Global\\Partner"
+          },
+          "path": "/QA/Prod/Global/Partner",
+          "applicationPool": "QAGlobalPartner"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Staging\\Global\\AR20Services\\Events"
+          },
+          "path": "/QA/Staging/Global/AR20Services/Events",
+          "applicationPool": "QAGlobalWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\Global\\AR20Services\\Events"
+          },
+          "path": "/QA/Prestaging/Global/AR20Services/Events",
+          "applicationPool": "QAGlobalWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\Domestic\\PersistenceService"
+          },
+          "path": "/QA/Prestaging/Domestic/PersistenceService",
+          "applicationPool": "QADomesticPersistence4"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\Global\\PersistenceService"
+          },
+          "path": "/QA/Prestaging/Global/PersistenceService",
+          "applicationPool": "QAGlobalPersistence4"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prod\\Domestic\\PersistenceService"
+          },
+          "path": "/QA/Prod/Domestic/PersistenceService",
+          "applicationPool": "QADomesticPersistence4"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prod\\Global\\PersistenceService"
+          },
+          "path": "/QA/Prod/Global/PersistenceService",
+          "applicationPool": "QAGlobalPersistence4"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Staging\\Domestic\\PersistenceService"
+          },
+          "path": "/QA/Staging/Domestic/PersistenceService",
+          "applicationPool": "QADomesticPersistence4"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Staging\\Global\\PersistenceService"
+          },
+          "path": "/QA/Staging/Global/PersistenceService",
+          "applicationPool": "QAGlobalPersistence4"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prod\\CORE\\Reservation"
+          },
+          "path": "/QA/Prod/CORE/Reservation",
+          "applicationPool": "QACoreReservation"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\Global\\QuoteGatewayWebAPI"
+          },
+          "path": "/QA/Prestaging/Global/QuoteGatewayWebAPI",
+          "applicationPool": "QAGlobalQuoteGatewayWebAPI"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\Domestic\\QuoteGatewayWebAPI"
+          },
+          "path": "/QA/Prestaging/Domestic/QuoteGatewayWebAPI",
+          "applicationPool": "QADomesticQuoteGatewayWebAPI"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\CORE\\QuoteGatewayWebAPI"
+          },
+          "path": "/QA/Prestaging/CORE/QuoteGatewayWebAPI",
+          "applicationPool": "QACoreQuoteGatewayWebAPI"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\CORE\\Reservation"
+          },
+          "path": "/QA/Prestaging/CORE/Reservation",
+          "applicationPool": "QACoreReservation"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Staging\\CORE\\QuoteGatewayWebAPI"
+          },
+          "path": "/QA/Staging/CORE/QuoteGatewayWebAPI",
+          "applicationPool": "QACoreQuoteGatewayWebAPI"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Staging\\CORE\\Reservation"
+          },
+          "path": "/QA/Staging/CORE/Reservation",
+          "applicationPool": "QACoreReservation"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\PDS\\Domestic\\DataPromotionService"
+          },
+          "path": "/PDS/Domestic/DataPromotionService",
+          "applicationPool": "DataPromotion"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\PDS\\Domestic\\ProductManager"
+          },
+          "path": "/PDS/Domestic/ProductManager",
+          "applicationPool": "ProductManager"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\PDS\\Global\\DataPromotionService"
+          },
+          "path": "/PDS/Global/DataPromotionService",
+          "applicationPool": "DataPromotion"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\PDS\\Global\\ProductManager"
+          },
+          "path": "/PDS/Global/ProductManager",
+          "applicationPool": "ProductManager"
+        }
+      ]
+    },
+    {
+      "name": "qagateway.fusion.com",
+      "Id": 2,
+      "serverAutoStart": "true",
+      "physicalPath": "C:\\inetpub\\wwwroot",
+      "bindings": [
+        {
+          "protocol": "http",
+          "bindingInformation": "*:80:qagateway.fusion.com"
+        },
+        {
+          "protocol": "https",
+          "bindingInformation": "*:443:"
+        }
+      ],
+      "virtualDirectories": [
+        {
+          "path": "/Utilities",
+          "physicalPath": "C:\\FusionServices\\App\\Utilities"
+        },
+        {
+          "path": "/WebApplications",
+          "physicalPath": "C:\\FusionServices\\App\\WebApplications"
+        },
+        {
+          "path": "/PDS",
+          "physicalPath": "C:\\FusionServices\\App\\PDS"
+        },
+        {
+          "path": "/CRO",
+          "physicalPath": "C:\\FusionServices\\App\\CRO"
+        },
+        {
+          "path": "/Staging",
+          "physicalPath": "C:\\FusionServices\\App\\QA\\Staging"
+        },
+        {
+          "path": "/Prod",
+          "physicalPath": "C:\\FusionServices\\App\\QA\\Prod"
+        },
+        {
+          "path": "/Prestaging",
+          "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging"
+        }
+      ],
+      "applications": [
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\Utilities\\Domestic\\TI20ServiceWrapper"
+          },
+          "path": "/Utilities/Domestic/TI20ServiceWrapper",
+          "applicationPool": "AppUtility"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\WebApplications\\Domestic\\Hotwire"
+          },
+          "path": "/WebApplications/Domestic/Hotwire",
+          "applicationPool": "DefaultAppPool"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\PDS\\Global\\ProductManager\\B2C\\WithoutPromotions"
+          },
+          "path": "/PDS/Global/ProductManager/B2C/WithoutPromotions",
+          "applicationPool": "ProductManager"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\PDS\\Global\\ProductManager\\B2C\\WithPromotions"
+          },
+          "path": "/PDS/Global/ProductManager/B2C/WithPromotions",
+          "applicationPool": "ProductManager"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\CRO\\CroWebService"
+          },
+          "path": "/CRO/CroWebService",
+          "applicationPool": "CRO Services"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\WebApplications\\Helpers.WebClientLib"
+          },
+          "path": "/WebApplications/WebClientLib",
+          "applicationPool": "DefaultAppPool"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\CORE\\Partner"
+          },
+          "path": "/PreStaging/CORE/Partner",
+          "applicationPool": "QACoreServices"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\CORE\\QuoteGateway"
+          },
+          "path": "/PreStaging/CORE/QuoteGateway",
+          "applicationPool": "QACoreQuoteGateway"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\PreStaging\\CORE\\Recommendation"
+          },
+          "path": "/PreStaging/CORE/Recommendation",
+          "applicationPool": "QACoreServices"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\CORE\\Content"
+          },
+          "path": "/PreStaging/CORE/Content",
+          "applicationPool": "QACoreContent"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\PreStaging\\CORE\\Product"
+          },
+          "path": "/PreStaging/CORE/Product",
+          "applicationPool": "QACoreServices"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\Utilities\\Domestic\\AirWrapper"
+          },
+          "path": "/Utilities/Domestic/AirWrapper",
+          "applicationPool": "DomesticWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\Utilities\\Domestic\\EmailPrototype\\Persistence"
+          },
+          "path": "/Utilities/Domestic/EmailPrototype/Persistence",
+          "applicationPool": "DomesticPersistence4"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\Utilities\\Domestic\\EmailPrototype\\Quotegateway"
+          },
+          "path": "/Utilities/Domestic/EmailPrototype/Quotegateway",
+          "applicationPool": "DomesticQuoteGateway"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\CRO\\Domestic\\CroTestPartner"
+          },
+          "path": "/CRO/Domestic/CroTestPartner",
+          "applicationPool": "DefaultAppPool"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\PreStaging\\CORE\\Persistence"
+          },
+          "path": "/PreStaging/CORE/Persistence",
+          "applicationPool": "QACorePersistence"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\PreStaging\\CORE\\Widget"
+          },
+          "path": "/PreStaging/CORE/Widget",
+          "applicationPool": "QACoreWidget"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\Domestic\\AR20Services\\Events"
+          },
+          "path": "/Prestaging/Domestic/AR20Services/Events",
+          "applicationPool": "QADomesticWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\Domestic\\AR20Services\\Lodging"
+          },
+          "path": "/Prestaging/Domestic/AR20Services/Lodging",
+          "applicationPool": "QADomesticWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\Domestic\\Partner"
+          },
+          "path": "/Prestaging/Domestic/Partner",
+          "applicationPool": "QADomesticPartner"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\Domestic\\QuoteGateway"
+          },
+          "path": "/Prestaging/Domestic/QuoteGateway",
+          "applicationPool": "QADomesticQuoteGateway"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\Domestic\\TI20Services\\InsuranceOffers"
+          },
+          "path": "/Prestaging/Domestic/TI20Services/InsuranceOffers",
+          "applicationPool": "QADomesticWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\Domestic\\TI20Services\\ProductPrice"
+          },
+          "path": "/Prestaging/Domestic/TI20Services/ProductPrice",
+          "applicationPool": "QADomesticWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\Domestic\\TI20Services\\PurchaseNotification"
+          },
+          "path": "/Prestaging/Domestic/TI20Services/PurchaseNotification",
+          "applicationPool": "QADomesticWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\Domestic\\TI20Services\\RailOffers"
+          },
+          "path": "/Prestaging/Domestic/TI20Services/RailOffers",
+          "applicationPool": "QADomesticWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\Global\\GlobalTI20Services\\B2BProductPriceVerification"
+          },
+          "path": "/Prestaging/Global/GlobalTI20Services/B2BProductPriceVerification",
+          "applicationPool": "QAGlobal TI20 Price Verification"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\Global\\GlobalTI20Services\\InsuranceOffers"
+          },
+          "path": "/Prestaging/Global/GlobalTI20Services/InsuranceOffers",
+          "applicationPool": "QAGlobalWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\Global\\GlobalTI20Services\\ProductPriceVerification"
+          },
+          "path": "/Prestaging/Global/GlobalTI20Services/ProductPriceVerification",
+          "applicationPool": "QAGlobalWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\Global\\Partner"
+          },
+          "path": "/Prestaging/Global/Partner",
+          "applicationPool": "QAGlobalPartner"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\Global\\QuoteGateway"
+          },
+          "path": "/Prestaging/Global/QuoteGateway",
+          "applicationPool": "QAGlobalQuoteGateway"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Staging\\CORE\\Content"
+          },
+          "path": "/Staging/CORE/Content",
+          "applicationPool": "QACoreContent"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Staging\\CORE\\Partner"
+          },
+          "path": "/Staging/CORE/Partner",
+          "applicationPool": "QACoreServices"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Staging\\CORE\\Persistence"
+          },
+          "path": "/Staging/CORE/Persistence",
+          "applicationPool": "QACorePersistence"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Staging\\CORE\\Product"
+          },
+          "path": "/Staging/CORE/Product",
+          "applicationPool": "QACoreServices"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Staging\\CORE\\QuoteGateway"
+          },
+          "path": "/Staging/CORE/QuoteGateway",
+          "applicationPool": "QACoreQuoteGateway"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Staging\\CORE\\Recommendation"
+          },
+          "path": "/Staging/CORE/Recommendation",
+          "applicationPool": "QACoreServices"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Staging\\CORE\\Widget"
+          },
+          "path": "/Staging/CORE/Widget",
+          "applicationPool": "QACoreWidget"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Staging\\Domestic\\AR20Services\\Events"
+          },
+          "path": "/Staging/Domestic/AR20Services/Events",
+          "applicationPool": "QADomesticWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Staging\\Domestic\\AR20Services\\Lodging"
+          },
+          "path": "/Staging/Domestic/AR20Services/Lodging",
+          "applicationPool": "QADomesticWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Staging\\Domestic\\Partner"
+          },
+          "path": "/Staging/Domestic/Partner",
+          "applicationPool": "QADomesticPartner"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Staging\\Domestic\\QuoteGateway"
+          },
+          "path": "/Staging/Domestic/QuoteGateway",
+          "applicationPool": "QADomesticQuoteGateway"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Staging\\Domestic\\TI20Services\\InsuranceOffers"
+          },
+          "path": "/Staging/Domestic/TI20Services/InsuranceOffers",
+          "applicationPool": "QADomesticWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Staging\\Domestic\\TI20Services\\ProductPrice"
+          },
+          "path": "/Staging/Domestic/TI20Services/ProductPrice",
+          "applicationPool": "QADomesticWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Staging\\Domestic\\TI20Services\\PurchaseNotification"
+          },
+          "path": "/Staging/Domestic/TI20Services/PurchaseNotification",
+          "applicationPool": "QADomesticWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Staging\\Domestic\\TI20Services\\RailOffers"
+          },
+          "path": "/Staging/Domestic/TI20Services/RailOffers",
+          "applicationPool": "QADomesticWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Staging\\Global\\GlobalTI20Services\\B2BProductPriceVerification"
+          },
+          "path": "/Staging/Global/GlobalTI20Services/B2BProductPriceVerification",
+          "applicationPool": "QAGlobal TI20 Price Verification"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Staging\\Global\\GlobalTI20Services\\InsuranceOffers"
+          },
+          "path": "/Staging/Global/GlobalTI20Services/InsuranceOffers",
+          "applicationPool": "QAGlobalWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Staging\\Global\\GlobalTI20Services\\ProductPriceVerification"
+          },
+          "path": "/Staging/Global/GlobalTI20Services/ProductPriceVerification",
+          "applicationPool": "QAGlobalWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Staging\\Global\\Partner"
+          },
+          "path": "/Staging/Global/Partner",
+          "applicationPool": "QAGlobalPartner"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Staging\\Global\\QuoteGateway"
+          },
+          "path": "/Staging/Global/QuoteGateway",
+          "applicationPool": "QAGlobalQuoteGateway"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prod\\CORE\\Content"
+          },
+          "path": "/Prod/CORE/Content",
+          "applicationPool": "QACoreContent"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prod\\CORE\\Partner"
+          },
+          "path": "/Prod/CORE/Partner",
+          "applicationPool": "QACoreServices"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prod\\CORE\\Persistence"
+          },
+          "path": "/Prod/CORE/Persistence",
+          "applicationPool": "QACorePersistence"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prod\\CORE\\Product"
+          },
+          "path": "/Prod/CORE/Product",
+          "applicationPool": "QACoreServices"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prod\\CORE\\QuoteGateway"
+          },
+          "path": "/Prod/CORE/QuoteGateway",
+          "applicationPool": "QACoreQuoteGateway"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prod\\CORE\\Recommendation"
+          },
+          "path": "/Prod/CORE/Recommendation",
+          "applicationPool": "QACoreServices"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prod\\CORE\\Widget"
+          },
+          "path": "/Prod/CORE/Widget",
+          "applicationPool": "QACoreWidget"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prod\\Domestic\\AR20Services\\Events"
+          },
+          "path": "/Prod/Domestic/AR20Services/Events",
+          "applicationPool": "QADomesticWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prod\\Domestic\\AR20Services\\Lodging"
+          },
+          "path": "/Prod/Domestic/AR20Services/Lodging",
+          "applicationPool": "QADomesticWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prod\\Domestic\\QuoteGateway"
+          },
+          "path": "/Prod/Domestic/QuoteGateway",
+          "applicationPool": "QADomesticQuoteGateway"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prod\\Domestic\\TI20Services\\InsuranceOffers"
+          },
+          "path": "/Prod/Domestic/TI20Services/InsuranceOffers",
+          "applicationPool": "QADomesticWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prod\\Domestic\\TI20Services\\ProductPrice"
+          },
+          "path": "/Prod/Domestic/TI20Services/ProductPrice",
+          "applicationPool": "QADomesticWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prod\\Domestic\\TI20Services\\PurchaseNotification"
+          },
+          "path": "/Prod/Domestic/TI20Services/PurchaseNotification",
+          "applicationPool": "QADomesticWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prod\\Domestic\\TI20Services\\RailOffers"
+          },
+          "path": "/Prod/Domestic/TI20Services/RailOffers",
+          "applicationPool": "QADomesticWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prod\\Global\\GlobalTI20Services\\B2BProductPriceVerification"
+          },
+          "path": "/Prod/Global/GlobalTI20Services/B2BProductPriceVerification",
+          "applicationPool": "QAGlobal TI20 Price Verification"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prod\\Global\\GlobalTI20Services\\InsuranceOffers"
+          },
+          "path": "/Prod/Global/GlobalTI20Services/InsuranceOffers",
+          "applicationPool": "QAGlobalWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prod\\Global\\GlobalTI20Services\\ProductPriceVerification"
+          },
+          "path": "/Prod/Global/GlobalTI20Services/ProductPriceVerification",
+          "applicationPool": "QAGlobalWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prod\\Global\\QuoteGateway"
+          },
+          "path": "/Prod/Global/QuoteGateway",
+          "applicationPool": "QAGlobalQuoteGateway"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\HealthCheck2"
+          },
+          "path": "/Prestaging/HealthCheck2",
+          "applicationPool": "QAAppUtility4"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Staging\\HealthCheck2"
+          },
+          "path": "/Staging/HealthCheck2",
+          "applicationPool": "QAAppUtility4"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prod\\HealthCheck2"
+          },
+          "path": "/Prod/HealthCheck2",
+          "applicationPool": "QAAppUtility4"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\Common\\AppMonitor"
+          },
+          "path": "/Prestaging/Common/AppMonitor",
+          "applicationPool": "WebAppMonitor"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Staging\\Common\\AppMonitor"
+          },
+          "path": "/Staging/Common/AppMonitor",
+          "applicationPool": "WebAppMonitor"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prod\\Global\\AR20Services\\Events"
+          },
+          "path": "/Prod/Global/AR20Services/Events",
+          "applicationPool": "QAGlobalWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\CORE\\WidgetMockPartnerSite"
+          },
+          "path": "/Prestaging/CORE/WidgetMockPartnerSite",
+          "applicationPool": "WidgetMockPartnerSite"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prod\\Domestic\\Partner"
+          },
+          "path": "/Prod/Domestic/Partner",
+          "applicationPool": "QADomesticPartner"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prod\\Global\\Partner"
+          },
+          "path": "/Prod/Global/Partner",
+          "applicationPool": "QAGlobalPartner"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Staging\\Global\\AR20Services\\Events"
+          },
+          "path": "/Staging/Global/AR20Services/Events",
+          "applicationPool": "QAGlobalWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\Global\\AR20Services\\Events"
+          },
+          "path": "/Prestaging/Global/AR20Services/Events",
+          "applicationPool": "QAGlobalWrappers"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prod\\CORE\\Reservation"
+          },
+          "path": "/Prod/CORE/Reservation",
+          "applicationPool": "QACoreReservation"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Staging\\CORE\\WidgetMockPartnerSite"
+          },
+          "path": "/Staging/CORE/WidgetMockPartnerSite",
+          "applicationPool": "WidgetMockPartnerSite"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\CORE\\Reservation"
+          },
+          "path": "/Prestaging/CORE/Reservation",
+          "applicationPool": "QACoreReservation"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\Domestic\\QuoteGatewayWebAPI"
+          },
+          "path": "/Prestaging/Domestic/QuoteGatewayWebAPI",
+          "applicationPool": "QADomesticQuoteGatewayWebAPI"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\Global\\QuoteGatewayWebAPI"
+          },
+          "path": "/Prestaging/Global/QuoteGatewayWebAPI",
+          "applicationPool": "QAGlobalQuoteGatewayWebAPI"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\CORE\\QuoteGatewayWebAPI"
+          },
+          "path": "/Prestaging/CORE/QuoteGatewayWebAPI",
+          "applicationPool": "QACoreQuoteGatewayWebAPI"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Staging\\CORE\\QuoteGatewayWebAPI"
+          },
+          "path": "/Staging/CORE/QuoteGatewayWebAPI",
+          "applicationPool": "QACoreQuoteGatewayWebAPI"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Staging\\CORE\\Reservation"
+          },
+          "path": "/Staging/CORE/Reservation",
+          "applicationPool": "QACoreReservation"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\Domestic\\PersistenceService"
+          },
+          "path": "/Prestaging/Domestic/PersistenceService",
+          "applicationPool": "QADomesticPersistence4"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prestaging\\Global\\PersistenceService"
+          },
+          "path": "/Prestaging/Global/PersistenceService",
+          "applicationPool": "QAGlobalPersistence4"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prod\\Domestic\\PersistenceService"
+          },
+          "path": "/Prod/Domestic/PersistenceService",
+          "applicationPool": "QADomesticPersistence4"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Prod\\Global\\PersistenceService"
+          },
+          "path": "/Prod/Global/PersistenceService",
+          "applicationPool": "QAGlobalPersistence4"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Staging\\Domestic\\PersistenceService"
+          },
+          "path": "/Staging/Domestic/PersistenceService",
+          "applicationPool": "QADomesticPersistence4"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\QA\\Staging\\Global\\PersistenceService"
+          },
+          "path": "/Staging/Global/PersistenceService",
+          "applicationPool": "QAGlobalPersistence4"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\PDS\\Domestic\\DataPromotionService"
+          },
+          "path": "/PDS/Domestic/DataPromotionService",
+          "applicationPool": "DataPromotion"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\PDS\\Domestic\\ProductManager"
+          },
+          "path": "/PDS/Domestic/ProductManager",
+          "applicationPool": "ProductManager"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\PDS\\Global\\DataPromotionService"
+          },
+          "path": "/PDS/Global/DataPromotionService",
+          "applicationPool": "DataPromotion"
+        },
+        {
+          "virtualDirectory": {
+            "path": "/",
+            "physicalPath": "C:\\FusionServices\\App\\PDS\\Global\\ProductManager"
+          },
+          "path": "/PDS/Global/ProductManager",
+          "applicationPool": "ProductManager"
+        }
+      ]
+    }
+  ]
+}
