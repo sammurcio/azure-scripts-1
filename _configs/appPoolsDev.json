@@ -5,13 +5,13 @@
     "managedPipelineMode": "Integrated",
     "queueLength": 1000,
     "autoStart": true,
-    "proccessModel": {
+    "processModel": {
       "idleTimeout": "02:00:00",
       "loadUserProfile": false,
       "maxProcesses": 2,
       "shutdownTimeLimit": "00:01:30",
       "startupTimeLimit": "00:01:30",
-      "pingEnabled": true,
+      "pingingEnabled": true,
       "pingInterval": "00:00:30",
       "pingResponseTime": "00:01:30"
     },
@@ -23,10 +23,7 @@
         "privateMemory": 524288,
         "requests": 0,
         "time": "3.00:00:00",
-        "memory": 0,
-        "schedule": [
-          "05:20:00"
-        ]
+        "memory": 0
       }
     }
   },
