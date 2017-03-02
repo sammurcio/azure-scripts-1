@@ -1,4 +1,15 @@
 {
+  "siteDefaults": [
+    {
+      "logfile": {
+        "logExtFileFlags": "Date, Time, ClientIP, UserName, SiteName, ComputerName, ServerIP, Method, UriStem, UriQuery, HttpStatus, Win32Status, BytesSent, BytesRecv,TimeTaken, ServerPort, UserAgent, Cookie, Referer, ProtocolVersion, Host, HttpSubStatus",
+        "logFormat": "W3C",
+        "period": "Daily",
+        "localTimeRollover": "true",
+        "enabled": "true"
+      }
+    }
+  ],
   "sites": [
     {
       "name": "Default Web Site",
